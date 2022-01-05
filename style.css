@@ -78,10 +78,3 @@ footer li{
 .project1{
     margin-bottom: 3%;
 }
-@media screen (max-width: 600px) {
-    .flexContainer{
-        display:flex;
-        flex-direction: column;
-        weidth: 100px;
-    }
-}
