@@ -1,0 +1,87 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    float: left;
+    width: 5em;
+    margin: auto;
+    text-align: right;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 90%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+}
+.heroimg{
+    height: fit-content;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: thistle;
+    text-align: center;
+}
+footer ul{
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+footer li{ 
+    padding: 1%;
+    color: white;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex1{
+    flex: grow 1;
+    padding: 10px;
+    height: 300px;
+    width: 330px;
+    text-align: center;
+}
+.flex2{
+    flex: grow 1;
+    padding: 10px;
+    height: 300px;
+    width: 330px;
+    text-align: center;
+}
+.flex3{
+    flex: grow 1;
+    padding: 10px;
+    height: 300px;
+    width: 330px;
+    text-align: center;
+}
+.workgrid{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.project1{
+    margin-bottom: 3%;
+}
+@media screen (max-width: 600px) {
+    .flexContainer{
+        display:flex;
+        flex-direction: column;
+        weidth: 100px;
+    }
+}
